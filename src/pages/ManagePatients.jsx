@@ -13,7 +13,7 @@ const ManagePatients = () => {
         <Form />
       </div>
 
-      <div className="md:w-1/2 lg:w-3/5">
+      <div className="md:w-1/2 lg:w-3/5 md:h-screen md:overflow-y-scroll">
         <PatientList />
       </div>
     </div>
